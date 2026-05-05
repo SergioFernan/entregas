@@ -5,8 +5,11 @@ function ninosCumple(lista) {
     let numeroMaximo = 0;
     for (let i = 0; i < lista.length; i++) {
         const posicion = lista[i];
-        if (numeroMaximo <= posicion) {
+        if (posicion > numeroMaximo) {
             numeroMaximo = posicion
+            cuenta = 1;
+        }
+        else if (posicion === numeroMaximo) {
             cuenta++;
         }
 
