@@ -31,7 +31,6 @@ class Carro {
             this.frenar = number;
             this.velocidad = this.acelerar - this.frenar;
         }
-
     }
 
 }
